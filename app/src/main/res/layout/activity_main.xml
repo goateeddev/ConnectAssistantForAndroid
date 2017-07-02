@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context="com.example.connectassistantforandroid.MainActivity" >
+
+    <!-- CONNECT ASSISTANT IMAGE & TEXT -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/app_name"
+        android:drawableLeft="@drawable/brunel_logo"
+        android:drawableStart="@drawable/brunel_logo"
+        android:drawablePadding="5dp"
+        android:textColor="#00325b"
+        android:textSize="12pt"
+        android:gravity="center" />
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="6"
+        android:orientation="horizontal" >
+	    <!-- TABS HOST -->
+	    <TabHost
+		    android:id="@+id/tabhost"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" >
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        <TabWidget
+		            android:id="@android:id/tabs"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content" >
+		        </TabWidget>
+		        <FrameLayout
+		            android:id="@android:id/tabcontent"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content" >
+		            <ScrollView
+						android:id="@+id/scrollView"
+						android:layout_width="match_parent"
+					    android:layout_height="match_parent" >
+		                <include
+			                android:id="@+id/tab_connect"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical"
+			                layout="@layout/tab_connect" >
+			            </include>
+			        </ScrollView>
+			            <include
+			                android:id="@+id/tab_devices"
+			                android:layout_width="match_parent"
+			                android:layout_height="match_parent"
+			                android:orientation="vertical"
+			                layout="@layout/tab_devices" >
+			            </include>
+			            <include
+			                android:id="@+id/tab_troubleshoot"
+			                android:layout_width="match_parent"
+			                android:layout_height="match_parent"
+			                android:orientation="vertical"
+			                layout="@layout/tab_troubleshoot" >
+			            </include>
+			            <include
+			                android:id="@+id/tab_account"
+			                android:layout_width="match_parent"
+			                android:layout_height="match_parent"
+			                android:orientation="vertical"
+			                layout="@layout/tab_account" >
+			            </include>
+			            <include
+			                android:id="@+id/tab_help"
+			                android:layout_width="match_parent"
+			                android:layout_height="match_parent"
+			                android:orientation="vertical"
+			                layout="@layout/tab_help" >
+			            </include>
+		        </FrameLayout>
+		    </LinearLayout>
+		</TabHost>
+	</LinearLayout>
+</LinearLayout>

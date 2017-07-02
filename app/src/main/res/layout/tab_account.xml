@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+	    <ImageView
+	        android:id="@+id/acc_avatar"
+	        android:layout_width="140dp"
+	        android:layout_height="140dp"
+	        android:paddingTop="15dp"
+	        android:src="@drawable/male"
+	        android:contentDescription="@string/acc_contact" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center" >
+	    <TextView
+	        android:id="@+id/acc_id"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        android:text="@string/acc_id"
+	        android:textSize="8pt" />
+	    <TextView
+	        android:id="@+id/acc_username"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        android:text="@string/acc_username"
+	        android:textSize="8pt" />
+	    <TextView
+	        android:id="@+id/acc_firstname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        android:text="@string/acc_firstname"
+	        android:textSize="8pt" />
+	    <TextView
+	        android:id="@+id/acc_lastname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        android:text="@string/acc_lastname"
+	        android:textSize="8pt" />	
+	    <TextView
+	        android:id="@+id/acc_email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        android:text="@string/acc_email"
+	        android:textSize="8pt" />
+    </LinearLayout>
+
+</LinearLayout>

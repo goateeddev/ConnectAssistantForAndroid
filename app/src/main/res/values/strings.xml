@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Connect Assistant</string>
+    <string name="brunel_logo">Brunel University</string>
+    
+    <!-- ACTION BAR -->
+    <string name="action_account">Account</string>
+    <string name="action_help">Help</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- LOGIN SCREEN -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_username">Network Username</string>
+    <string name="login_password">Network Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_skip">Skip</string>
+    
+    <!-- GENERAL USE -->
+    <string name="nodevices">You currently have no devices registered.</string>
+    
+    <!-- CONNECT TAB -->
+    <string name="enter_MAC">WiFi MAC address</string>
+    <string name="not_supported">
+        Android 6 Marshmallow Detected: \n
+        Due to restrictions in this version of Android, 
+        the WiFi MAC address has to be entered manually.
+    </string>
+    <string name="btn_show">SHOW MAC</string>
+    <string name="btn_register">REGISTER</string>
+    
+	<!-- DEVICES TAB -->
+    <string name="txt_devices">Device</string>
+    
+    <!-- TROUBLESHOOT TAB -->
+    <string name="txt_troubleshoot">Device</string>
+	
+	<!-- ACCOUNT TAB -->
+    <string name="acc_contact">Contact</string>
+    <string name="acc_id">Student ID</string>
+    <string name="acc_username">Network Username</string>
+    <string name="acc_firstname">Firstname</string>
+    <string name="acc_lastname">Lastname</string>
+    <string name="acc_email">Student Email @my.brunel.ac.uk</string>
+    
+    <!-- HELP TAB -->
+    <string name="help_team">Contact Tech Zone</string>
+    <string name="help_dev">Contact Developer</string>
+    <string name="website">connect.brunel.ac.uk</string>
+
+</resources>

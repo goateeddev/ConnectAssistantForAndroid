@@ -53,3 +53,27 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Ignore folders
+*obj/
+*bin/
+*Properties/
+*images/
+*packages/
+
+#  Ignore image files
+*.ico
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore files
+*.gradle
+*.jar
+*.bat
+*.txt
+*.zip
+
+# Ignore specific file name
+**/gradlew

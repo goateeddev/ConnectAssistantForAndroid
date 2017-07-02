@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    <TextView
+        android:id="@+id/support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:drawableLeft="@drawable/brunel_logo"
+        android:drawableStart="@drawable/brunel_logo"
+        android:drawablePadding="5dp"
+        android:text="@string/help_team"
+        android:textColor="#00325b"
+        android:textSize="9pt"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:drawableLeft="@drawable/brunel_logo"
+        android:drawableStart="@drawable/brunel_logo"
+        android:drawablePadding="5dp"
+        android:text="@string/help_dev"
+        android:textColor="#00325b"
+        android:textSize="9pt"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/portal"
+        android:autoLink="web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/website"
+        android:textColor="#00325b"
+        android:textSize="9pt"
+        android:gravity="center" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="version 1.2.8.0"
+        android:textColor="#00325b"
+        android:textSize="6pt"
+        android:gravity="center" />
+
+</LinearLayout>
